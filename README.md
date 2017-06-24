@@ -39,7 +39,7 @@ fill from the heightStart to heightStart + height .
 func firstSectionWithHeight(heightStart : Int , height : Int , section : Int , color : UIColor , c : CGSize) -> UIImage?
 ```
 
-This function draw white lines to image cause of understanding the sections
+This function draw **white lines** to **image** cause of **understanding** the sections
 ```swift
 func drawGraphLines(c : CGSize)
 ```    
