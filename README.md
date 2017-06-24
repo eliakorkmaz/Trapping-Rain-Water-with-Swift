@@ -50,10 +50,10 @@ func checkBothSides(index : Int , wall : WallHeights) -> Bool
 ```      
 
 ### Generating only Towers
-![](https://github.com/eliakorkmaz/Trapping-Rain-Water-with-Swift/blob/master/final.gif)
+![](https://github.com/eliakorkmaz/Trapping-Rain-Water-with-Swift/blob/master/generateScene1.gif)
 
 ### Generating All Scenarios
-![](https://github.com/eliakorkmaz/Trapping-Rain-Water-with-Swift/blob/master/generateScene1.gif)
+![](https://github.com/eliakorkmaz/Trapping-Rain-Water-with-Swift/blob/master/final.gif)
 
 
 
