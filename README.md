@@ -11,7 +11,7 @@ Here is the struct to store `Tower` heights
 This function generate scenario for `UIImageView`
 ```swift
 struct WallHeights{
-var wallHeights : [Int] = [0,0,0,0,0,0,0,0];
+    var wallHeights : [Int] = [0,0,0,0,0,0,0,0];
 }
 ```
 
