@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GoogleInterviewQuestion" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDx-Kk-G93">
+                                <rect key="frame" x="149" y="395" width="76" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="zpE-9w-q6g"/>
+                                </constraints>
+                                <state key="normal" title="GENERATE"/>
+                                <connections>
+                                    <action selector="generateFunction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eT6-P0-Bql"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cUh-Ti-Tro">
+                                <rect key="frame" x="27" y="72" width="320" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="240" id="02U-Ip-2Mh"/>
+                                    <constraint firstAttribute="height" constant="240" id="Lyf-UG-GpA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cUh-Ti-Tro" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="52" id="CaD-lT-Re7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KDx-Kk-G93" secondAttribute="trailing" constant="134" id="TK3-Dv-7FM"/>
+                            <constraint firstItem="KDx-Kk-G93" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="133" id="W5p-ss-Z06"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cUh-Ti-Tro" secondAttribute="trailing" constant="12" id="fy6-QP-K4o"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="cUh-Ti-Tro" secondAttribute="leading" constant="-11" id="hFR-X1-Tpd"/>
+                            <constraint firstItem="cUh-Ti-Tro" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="kL6-ZF-ouE"/>
+                            <constraint firstItem="KDx-Kk-G93" firstAttribute="top" secondItem="cUh-Ti-Tro" secondAttribute="bottom" constant="83" id="lvT-ln-JXz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cUh-Ti-Tro" secondAttribute="trailing" constant="12" id="vWA-D7-fXQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="questionImageView" destination="cUh-Ti-Tro" id="L5y-0q-2PC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="214.54272863568218"/>
+        </scene>
+    </scenes>
+</document>
